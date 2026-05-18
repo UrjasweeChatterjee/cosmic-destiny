@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import LoadingScreen from './components/LoadingScreen'
 import ScrollToTop from './components/ScrollToTop'
+import WhatsAppButton from './components/WhatsAppButton'
 import StarsBackground from './components/StarsBackground'
 import FloatingSymbols from './components/FloatingSymbols'
 import Home from './pages/Home'
@@ -48,6 +49,7 @@ function App() {
       </main>
       <Footer />
       <ScrollToTop />
+      <WhatsAppButton />
     </>
   )
 }

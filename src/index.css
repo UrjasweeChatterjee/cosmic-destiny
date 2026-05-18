@@ -9,34 +9,34 @@
 }
 
 :root {
-  /* Color Palette */
-  --cosmic-void: #030014;
-  --deep-space: #0a0020;
-  --midnight: #0d0030;
-  --nebula-purple: #1a0040;
-  --royal-purple: #2d1b69;
-  --violet: #5b21b6;
-  --lavender: #8b5cf6;
-  --gold: #f5c842;
-  --gold-bright: #ffd700;
-  --gold-muted: #c9a227;
-  --silver: #c0c0c0;
-  --moonlight: #e8e0ff;
-  --starlight: #f0eaff;
-  --cosmic-blue: #1e3a8a;
-  --sapphire: #1d4ed8;
+  /* Color Palette - Professional Navy & Gold */
+  --cosmic-void: #020617; /* Slate 950 */
+  --deep-space: #0f172a; /* Slate 900 */
+  --midnight: #1e293b; /* Slate 800 */
+  --nebula-purple: #1e3a8a; /* Blue 900 */
+  --royal-purple: #1e40af; /* Blue 800 */
+  --violet: #2563eb; /* Blue 600 */
+  --lavender: #3b82f6; /* Blue 500 */
+  --gold: #d4af37; /* Professional Gold */
+  --gold-bright: #fcd34d;
+  --gold-muted: #b45309;
+  --silver: #cbd5e1;
+  --moonlight: #f8fafc;
+  --starlight: #f1f5f9;
+  --cosmic-blue: #0ea5e9;
+  --sapphire: #0284c7;
   --cyan-glow: #06b6d4;
 
   /* Glass */
-  --glass-bg: rgba(255,255,255,0.04);
-  --glass-border: rgba(255,255,255,0.08);
-  --glass-hover: rgba(255,255,255,0.07);
+  --glass-bg: rgba(255,255,255,0.03);
+  --glass-border: rgba(255,255,255,0.06);
+  --glass-hover: rgba(255,255,255,0.05);
 
   /* Gradients */
-  --gradient-hero: radial-gradient(ellipse at 50% 0%, #2d0068 0%, #0d0030 40%, #030014 100%);
-  --gradient-gold: linear-gradient(135deg, #f5c842 0%, #ffd700 50%, #c9a227 100%);
-  --gradient-purple: linear-gradient(135deg, #5b21b6 0%, #8b5cf6 50%, #6d28d9 100%);
-  --gradient-cosmic: linear-gradient(135deg, #1a0040 0%, #2d1b69 50%, #0d0030 100%);
+  --gradient-hero: radial-gradient(ellipse at 50% 0%, #1e3a8a 0%, #0f172a 40%, #020617 100%);
+  --gradient-gold: linear-gradient(135deg, #fcd34d 0%, #d4af37 50%, #b45309 100%);
+  --gradient-purple: linear-gradient(135deg, #2563eb 0%, #3b82f6 50%, #1d4ed8 100%);
+  --gradient-cosmic: linear-gradient(135deg, #1e3a8a 0%, #1e40af 50%, #0f172a 100%);
 
   /* Typography */
   --font-display: 'Cinzel', serif;
